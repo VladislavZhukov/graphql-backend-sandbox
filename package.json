@@ -1,0 +1,27 @@
+{
+  "name": "graphql-backend-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.8",
+    "babel-plugin-import-graphql": "^2.8.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-watch": "^7.5.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.0.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1"
+  }
+}
